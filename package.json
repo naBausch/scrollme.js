@@ -1,0 +1,22 @@
+{
+  "name": "scrollme.js",
+  "version": "1.0.0",
+  "description": "Pure javascript plugin for adding simple scrolling effects to web pages. Edit",
+  "main": "scrollme.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yarakanigara/scrollme.js.git"
+  },
+  "keywords": [
+    "scrollme.js"
+  ],
+  "author": "yarakanigara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yarakanigara/scrollme.js/issues"
+  },
+  "homepage": "https://github.com/yarakanigara/scrollme.js#readme"
+}
