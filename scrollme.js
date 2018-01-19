@@ -367,9 +367,11 @@ function scrollme() {
     };
     // ----------------------------------------------------------------------------------------------------
     // Bind initialisation
-    (_this.init_events.join(' ').split(' ')).forEach(function (e) {
-        $document.addEventListener(e, _this.init(), false);
-    });
+    if ($document.readyState === "loading") {
+      $document.addEventListener("DOMContentLoaded", _this.init, false);
+    } else {
+      _this.init();
+    }
     // ----------------------------------------------------------------------------------------------------
     return _this;
     // ----------------------------------------------------------------------------------------------------
